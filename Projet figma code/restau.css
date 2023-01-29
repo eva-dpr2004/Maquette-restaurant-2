@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+html,body {
+
+    font-family: Montserrat, sans-serif; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat; 
+    scroll-behavior: smooth;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
+  
+  .logo1{
+    width:206px;
+    height:101px;
+  }
+  
+  .navbar {
+      display:flex;
+      padding-right: 80px;
+      padding-left: 50px;
+  }
+   
+  header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+      padding-top: 10px;
+      margin-right: 55px;
+  }
+  
+  header ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  header ul li {
+      list-style: none; 
+      font-family: 'Montserrat'; 
+      font-weight: 500; 
+      text-align: center; 
+      letter-spacing: 0.2px;
+      margin-left: 8rem;
+      padding-top: 5px;
+      font-size: 28px;
+  }  
+  
+  header ul li a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+  } 
+  
+  .head-container {
+      max-width: 90%;
+      margin: auto;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+  
+  .nav-menu {
+      padding-left: 15px;
+  }
+
+.background{
+    height: 619px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(image/Grandesalade.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+.appetit{
+    color: white;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(image/bonne-appetit.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+.cadre-pizza{
+    border: 3px solid #FA4A0C;
+}
+
+.pizza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pizza img{
+    width: 377px;
+    height: 215px;
+    padding: 23px;
+}
+
+.texte-pizza{
+    font-size: 24px;
+    padding: 23px;
+}
+
+button {
+    display: inline-block;
+    background-color: #FA4A0C;
+    border: none;
+    border-radius: 30px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    width: 130px ;
+    height: 50px ;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 227px;
+  }
+
+.problem{
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+.titre-n{
+    text-align: center;
+}
+
+.bas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fb{
+    width: 33px;
+    height: 33px;
+}
+

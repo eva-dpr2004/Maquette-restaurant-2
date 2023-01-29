@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+    .pizza{
+    flex-wrap: wrap;
+    }
+
+    ul.nav-menu {
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .bouh2{
+        width: 70%;
+    }
+
+    ul.nav-menu {
+        width: 70%;
+        flex-direction: column;
+      }
+
+    .bas {
+        flex-direction: column;
+    }
+
+    .problem {
+        margin-left: 25px;
+    }
+    
+    .button2 {
+        margin-top: 50px;
+        margin-left: 200px;
+      }
+}

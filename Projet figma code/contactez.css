@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+html,body {
+
+    font-family: Montserrat, sans-serif; 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat; 
+    scroll-behavior: smooth;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+  }
+  
+  .logo1{
+    width:206px;
+    height:101px;
+  }
+  
+  .navbar {
+      display:flex;
+      padding-right: 80px;
+      padding-left: 50px;
+  }
+   
+  header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+      padding-top: 10px;
+      margin-right: 55px;
+  }
+  
+  header ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  header ul li {
+      margin-left: 2rem;  
+      list-style: none; 
+      font-family: 'Montserrat'; 
+      font-weight: 500; 
+      line-height: 28px; 
+      text-align: center; 
+      letter-spacing: 0.2px;
+      margin-left: 8rem;
+      padding-top: 5px;
+      font-size: 28px;
+  }  
+  
+  header ul li a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+  } 
+  
+  .head-container {
+      max-width: 0%;
+      margin: auto;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .background{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 619px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(image/Grandesalade.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+button {
+  display: inline-block;
+  background-color: #FA4A0C;
+  border: none;
+  border-radius: 30px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 18px;
+  width: 130px ;
+  height: 50px ;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.formulaire1{
+  display: flex; 
+  gap: 18%;
+  border-radius: 4px;
+
+}
+
+.formulaire{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.formulaire2{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.formulaire3{
+  margin-left: 5%;
+  flex-direction: column;
+  border-radius: 4px;
+  
+}
+
+.grp input{
+  margin-bottom: 5%;
+  margin-left: 5%;
+  width: 50%;
+  height: 50px;
+}
+
+.loca{
+  margin-left: 5%;
+}
+
+.b1{
+  margin-top: 50px;
+}
+
+.b2{
+  margin-top: 50px;
+  margin-left: 310px;
+}
+
+.txt{
+  margin-left: 5%;
+}
+
+
+.titre{
+  margin-left: 5%;
+}
+
+.grp {
+  display: flex;
+  gap: 28%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row input{
+  width: 59%;
+  height: 20px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row2 input{
+  width: 48%;
+  height: 150px;
+}
+
+.formulaire1 {
+  display: flex;
+  gap: 18%;
+  border-radius: 4px;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-right: 7%;
+}
+
